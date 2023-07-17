@@ -1,0 +1,67 @@
+h1 {
+	text-align: center;
+	text-shadow: 2px 4px 2px red;
+	color: darkturquoise;
+}
+h1 + div {
+	text-align: center;
+	font-size: 30px;
+	display: flex;
+	flex-direction: column;
+	height: 350px;
+	justify-content: space-evenly;
+	align-items: center;
+}
+label {
+	color: navy;
+	text-shadow: 0px 0px 2px deepskyblue;
+}
+input {
+	padding: 10px;
+	border-radius: 20px;
+	background-color: wheat;
+}
+button {
+	padding: 10px;
+	width: 300px;
+	/* font-weight: bold; */
+	font-size: large;
+	color: cyan;
+	background-color: black;
+	border: 1px solid transparent;
+	border-radius: 25px;
+}
+button:hover {
+	background-color: transparent;
+	border: 1px solid black;
+	color: red;
+	font-size: x-large;
+	font-weight: 700;
+	cursor: pointer;
+}
+.container {
+	width: 90%;
+	margin: auto;
+	background-color: palegreen;
+	/* border: 3px groove transparent; */
+	border-radius: 4px;
+	height: auto;
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	gap: 20px;
+	align-items: center;
+}
+.box {
+	background-color: blueviolet;
+	color: black;
+	/* width: 100%; */
+	padding: 20px;
+	border: 1px solid transparent;
+	border-radius: 20px;
+	/* margin-top: 10px; */
+	/* margin-bottom: 10px; */
+	margin: 10px;
+	font-weight: 600;
+	text-shadow: 0px 0px 2px aliceblue;
+}
